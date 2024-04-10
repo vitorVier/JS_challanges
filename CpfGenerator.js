@@ -5,7 +5,7 @@ function gerarCPF() {
     let sum = 0;
     let sum2 = 0;
     
-    for(let i = 0; i < 14; i++){ //calcular firstNum
+    for(let i = 0; i < 13; i++){ //calcular firstNum
         let j = Math.floor(Math.random() * 9);
         // console.log(j)
         
